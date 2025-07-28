@@ -2,7 +2,7 @@ package One;
 
 import java.util.Collection;
 
-public class MyArrayList<T> {
+public class CustomArrayList<T> {
 
     private static final int DEFAULT_CAPACITY = 10;
 
@@ -12,7 +12,7 @@ public class MyArrayList<T> {
 
     private int capacity;
 
-    public MyArrayList() {
+    public CustomArrayList() {
         capacity = DEFAULT_CAPACITY;
         this.values = new Object[DEFAULT_CAPACITY];
     }
