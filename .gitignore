@@ -1,5 +1,6 @@
 ### IntelliJ IDEA ###
 .idea/
+*.iml
 /target/
 out/
 !**/src/main/**/out/
@@ -49,4 +50,3 @@ coverage-reports/
 
 ### Mac OS specific ###
 .DS_Store
-beginnings.ini
